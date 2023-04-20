@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Outfit:wght@400;700&family=Poppins:wght@100;300;500&family=Righteous&family=Sarala&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.card-container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 1em;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 22px 10px;
+}
+
+.text h1 {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
+}
